@@ -8,7 +8,7 @@ The requirement for large labeled datasets is one of the limiting factors for tr
 ![Alt text](figs/211111-attention.jpg?raw=true "Attention")
 Heatmap of the features that are aligned in the adversarial network. The first row shows the original image. The second row shows the heatmap for DANN, while the last row shows the heatmap for our proposed backprop induced weighting method. The network is adapted on the task Art to RealWorld of the OfficeHome dataset. Without using the weighting, the adversarial network focuses on large parts of the image, including the background. The weighting lets the adversarial network focus mainly on the foreground object.
 
-![Alt text](figs/211116_pipeline.png?raw=true "Pipeline")
+![Alt text](figs/211116-networkStructure.pdf?raw=true "Pipeline")
 Pipeline of our proposed method. We employ three losses to train the network. For the adversarial loss, we weight the feature space based on the importance for the classifier. In particular, we backpropagate the classification loss to the feature layer, normalize the gradients and employ it as a weighting vector. Furthermore, after training the network for a single, the predicted labels of the target domain are used to initialize dataloader of the next run to achieve a class-balanced dataloader.
 
 ### Usage
