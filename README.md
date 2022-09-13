@@ -3,7 +3,7 @@ PyTorch Code for BIWAA - Backprop Induced Feature Weighting for Adversarial Doma
 
 
 ### Method overview
-![alt text](https://github.com/ThomasWestfechtel/BIWAA/blob/master/figs/211111-attention.png "Attention")
+![alt text](https://github.com/ThomasWestfechtel/BIWAA/blob/master/figs/211111-attention.jpg "Attention")
 
 <img src="figs/211116_pipeline.png alt="pipeline" width="800"/>
 
