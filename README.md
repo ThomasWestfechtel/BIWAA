@@ -14,9 +14,11 @@ Pipeline of our proposed method. We employ three losses to train the network. Fo
 ### Usage
 To train the network run:
 
-bash train_domainNet.sh \\
-bash train_office31.sh \\
-bash train_officeHome.sh \\
+```shell
+bash train_office31.sh 
+bash train_officeHome.sh 
+bash train_domainNet.sh 
+```
 
 To train different a task change the line 12 of the scripts
 
